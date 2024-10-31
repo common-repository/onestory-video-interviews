@@ -1,0 +1,89 @@
+/*
+Copyright (C) 2015  OneStory Inc.
+
+OneStory Video Interviews is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+.onestory-admin-player label,
+.onestory-admin-gallery label,
+.onestory-admin-share label
+{
+	margin: 12px 0 8px 0;
+	font-size: 1.2em;
+	display: block;
+}
+.onestory-admin-player-options,
+.onestory-admin-gallery-options,
+.onestory-admin-share-options
+{
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+.onestory-admin-player-details,
+.onestory-admin-share-details
+{
+	display: none;
+}
+.onestory-admin-shortcode
+{
+	display: none;
+	margin-top: 20px;
+	border: 0;
+    border-top: 1px solid #acacac;
+}
+.onestory-admin-loading {
+	display: none;
+	padding-top: 10px;
+}
+.onestory-admin-error {
+	display: none;
+	color: #b04135;
+}
+.onestory-admin-gallery-height {
+	display: none;
+	color: #b04135;
+}
+#onestory_admin_player_shortcode_preview,
+#onestory_admin_gallery_shortcode_preview,
+#onestory_admin_share_shortcode_preview
+{
+    border: 1px solid #CCCCCC;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #EEEEEE;
+	width: 90%;
+	height: 70px;
+	display: block;
+	margin-bottom: 20px;
+	font-size: 1.2em;	
+}
+#onestory_admin_gallery_limit_error, 
+#onestory_admin_gallery_height_error {
+	display: none;
+	color: #993333;
+	font-size: 0.8em;
+}
+fieldset.onestory-admin {
+	border: 1px solid #acacac;
+	padding: 0.8em;
+}
+fieldset.onestory-admin label {
+  margin-right: 0.5em;
+  padding-top: 0.2em;
+  font-weight: bold;
+  font-size: 0.95em;
+  margin-top: 1em;
+  margin-bottom: 0.25em;
+}
